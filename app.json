@@ -1,22 +1,3 @@
 {
-  "name": "jcruiz-blog",
-
-  "scripts": {
-  },
-  {
    "stack": "heroku-18"
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-
-  ]
 }
