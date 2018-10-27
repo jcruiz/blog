@@ -13,22 +13,45 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+url: http://jcruiz.co
+title: The Other Radio
+subtitle: A Colombian geeking out in the Silicon Valley
+author: Juan Camilo Ruiz
+simple_search: http://google.com/search
+description: "I'm Juan Camilo Ruiz, technologist and computer sciences professional from Bogotá, Colombia-living in San Francisco. Product at Moovweb, former product at Oracle Development Tools. Love technology, love to learn, welcome to my playground. This blog contains my personal opinions and don't represent anyone but me."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: http://jcruiz.co
+twitter_username: juanca
+github_username:  jcruiz
+linkedin_username: juancamiloruiz
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft
+
+# Google Analytics
+google_analytics_tracking_id: UA-44281567-1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
