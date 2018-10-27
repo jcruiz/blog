@@ -1,6 +1,10 @@
 {
   "name": "jcruiz-blog",
+
   "scripts": {
+  },
+  {
+   "stack": "heroku-18"
   },
   "env": {
   },
