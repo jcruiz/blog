@@ -6,11 +6,11 @@ comments: true
 categories: [Colombia, entrepreneurship]
 published: true
 ---
-![courtesy of @SWCol](https://pbs.twimg.com/media/Byqgbw4IcAAltGw.jpg)
 In recent weeks I've virtually followed 2 StartupWeekend events that took place in Bogota, Colombia that gave me a general ideal about the growth of the innovation ecosystem in the country and the new blood of entrepreneurs.
 
 I noticed something that is establishing as a strong and valid alternative that attracts young generations to come up with a fearless attitude and bring fresh and new ideas to improve the way things work in the country/city/communities. In this article I'm going to offer my negative and positive impressions together with resources that are useful for anyone that wants to follow up on this.  
 <!--more-->
+{% include aligner.html images="col-innovators/group.jpg" %}
 ###Event 1: StartupWeekend Uniandes
 I found out about a [startup-weekend Uniandes](http://uniandes.startupweekend.org/) event that took place at the no.1 ranked school in the country. And I was positive surprise that they had a live stream.
 
