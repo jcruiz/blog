@@ -23,7 +23,7 @@ linkedin_username: juancamiloruiz
 #Original theme
 # theme: minima
 theme: type-on-strap
-color_theme: auto
+color_theme: dark
 plugins:
   - jekyll-feed
 
