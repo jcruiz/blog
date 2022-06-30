@@ -1,0 +1,48 @@
+{
+  "id": "did:web:jcruiz.co",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:jcruiz.co"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://jcruiz.co/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://beta.hub.msidentity.com/v1.0/2572a6be-0a8f-4048-b830-cc8bf8c3d3fa"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#36a130f6a05749c7b80853970f8db755vcSigningKey-22a82",
+      "controller": "did:web:jcruiz.co",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "At2tHP6qBVcH9WPin21IZavfff4hRDCKk-X-NBqyDvk",
+        "y": "NRi8Xg_3EHB06zE4OtlOdoHLGV5xvWombCdChUScGHk"
+      }
+    }
+  ],
+  "authentication": [
+    "#36a130f6a05749c7b80853970f8db755vcSigningKey-22a82"
+  ],
+  "assertionMethod": [
+    "#36a130f6a05749c7b80853970f8db755vcSigningKey-22a82"
+  ]
+}
