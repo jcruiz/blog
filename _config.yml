@@ -1,6 +1,6 @@
 #SITE CONFIGURATIONS
-url: http://jcruiz.co
 baseurl: "" # the subpath of your site, e.g. /blo
+url: "https://jcruiz.github.io"
 
 #THEME SPECIFIC CONFIGURATION
 title: The Other Radio
@@ -9,10 +9,9 @@ favicon:
 author: Juan Camilo Ruiz
 
 # Header and footer text
-header_text: Views on Product Management and web stuff
+header_text: Views on Product Management and web stuff</b> Welcome to JuanCa's playground
 header_feature_image: assets/img/header-feature.jpg
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+footer_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 description: "I'm Juan Camilo Ruiz, technologist and computer sciences professional from Bogotá, Colombia-living in Dublin. Product at Microsoft, former PM @BigCommerce, @Moovweb and @Oracle. Love technology, love to learn, welcome to my playground. This blog contains my personal opinions and don't represent anyone but me."
 twitter_username: juanca
@@ -22,10 +21,8 @@ linkedin_username: juancamiloruiz
 # Build settings
 #Original theme
 # theme: minima
-theme: type-on-strap
-color_theme: dark
-plugins:
-  - jekyll-feed
+remote_theme: sylhare/Type-on-Strap
+# remote_theme: dieghernan/chulapa
 
 # Default templates for posts and pages
 # Found in _templates/
@@ -35,14 +32,14 @@ paginate: 5  # amount of posts to show per page
 paginate_path: /page:num/
 
 # Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+excerpt: truncate                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
 color_image: /assets/img/lineart.png
 # Format titles with titlecase?
 titlecase: true
 
 # Google Analytics
-google_analytics_tracking_id: UA-44281567-1
+google_analytics: UA-44281567-1
 
 #Well-known config
 include:
